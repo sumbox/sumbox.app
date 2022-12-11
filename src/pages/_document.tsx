@@ -10,6 +10,31 @@ const Document: React.FC = () => {
         <link rel="manifest" href="/manifest.json" />
         <link rel="shortcut icon" href="/color.svg" />
         <link rel="icon" href="/color.svg" />
+
+        <title>Sumbox - Go Beyond note taking</title>
+        <meta
+          name="description"
+          content="Welcome to Sumbox, where creativity knows no bounds! It goes beyond traditional text-based note taking to capture your thoughts, ideas, and inspirations in voice and visuals."
+        />
+
+        <meta property="og:url" content="https://sumbox.app" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Sumbox - Go Beyond note taking" />
+        <meta
+          property="og:description"
+          content="Welcome to Sumbox, where creativity knows no bounds! It goes beyond traditional text-based note taking to capture your thoughts, ideas, and inspirations in voice and visuals."
+        />
+        <meta property="og:image" content="" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="sumbox.app" />
+        <meta property="twitter:url" content="https://sumbox.app" />
+        <meta name="twitter:title" content="Sumbox - Go Beyond note taking" />
+        <meta
+          name="twitter:description"
+          content="Welcome to Sumbox, where creativity knows no bounds! It goes beyond traditional text-based note taking to capture your thoughts, ideas, and inspirations in voice and visuals."
+        />
+        <meta name="twitter:image" content="" />
       </Head>
       <body>
         <Main />
